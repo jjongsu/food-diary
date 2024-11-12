@@ -6,7 +6,7 @@ import { FaPerson } from 'react-icons/fa6';
 import { FaPlus } from 'react-icons/fa';
 import { GoInbox } from 'react-icons/go';
 
-export default function Home() {
+export default function Diary() {
     return (
         <div className='h-full font-pre'>
             <div className='flex w-full items-center justify-between border px-3 py-2'>
