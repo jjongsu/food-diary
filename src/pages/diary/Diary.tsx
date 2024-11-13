@@ -1,24 +1,15 @@
 import { CircleProgressBar, DrinkWater } from './components';
-import { FaRegUser } from 'react-icons/fa';
 import { IoIosArrowBack } from 'react-icons/io';
 import { IoIosArrowForward } from 'react-icons/io';
 import { FaPerson } from 'react-icons/fa6';
 import { FaPlus } from 'react-icons/fa';
 import { GoInbox } from 'react-icons/go';
+import { Header } from '../../layouts';
 
 export default function Diary() {
     return (
         <div className='h-full font-pre'>
-            <div className='flex w-full items-center justify-between border px-3 py-2'>
-                <div className='flex items-center gap-3'>
-                    <div className='text-xl font-bold text-textColor1'>황종수님</div>
-                    <div className='flex gap-1 rounded-lg bg-backColor px-1.5 py-1 text-sm'>
-                        <div className='text-textColor1'>기록누적</div>
-                        <div className='font-bold text-textColor1'>0일째</div>
-                    </div>
-                </div>
-                <FaRegUser size={24} />
-            </div>
+            <Header />
 
             <div className='flex items-center justify-between px-3 py-5'>
                 <div className='flex items-center gap-3'>
